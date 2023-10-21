@@ -1,6 +1,6 @@
 <?php
    require_once 'nav.php';
-if(isset($_POST['nom'])){
+   if(isset($_POST['nom'])){
 
     $nom = $_POST['nom'];
     $prenom = $_POST['prenom'];
